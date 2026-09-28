@@ -5,3 +5,4 @@ __pycache__/
 *.pyc
 .DS_Storedata/raw/
 data/raw/
+data/queries_backup.csv
