@@ -1,0 +1,85 @@
+query,category,intent,source
+what is a crypto exchange and how does it work,crypto_exchanges,informational,seed
+how to choose a crypto exchange,crypto_exchanges,informational,seed
+best crypto exchanges for beginners,crypto_exchanges,commercial,seed
+which crypto exchange has the lowest trading fees,crypto_exchanges,commercial,seed
+are centralized exchanges safe,crypto_exchanges,informational,seed
+how do crypto exchange trading fees work,crypto_exchanges,informational,seed
+what is proof of reserves in crypto exchanges,crypto_exchanges,informational,seed
+best crypto exchange with low withdrawal fees,crypto_exchanges,commercial,seed
+how to verify a crypto exchange is legit,crypto_exchanges,informational,seed
+maker vs taker fees explained,crypto_exchanges,informational,seed
+best crypto exchange for futures trading,crypto_exchanges,commercial,seed
+how to withdraw crypto from an exchange to a wallet,crypto_exchanges,informational,seed
+what is a stablecoin and how does it work,crypto_education,informational,seed
+how to buy bitcoin safely,crypto_education,informational,seed
+what is staking in crypto,crypto_education,informational,seed
+difference between spot and futures trading,crypto_education,informational,seed
+what is a crypto wallet and which type is best,crypto_education,informational,seed
+how does defi lending work,crypto_education,informational,seed
+what is a token unlock and why does it matter,crypto_education,informational,seed
+how to read a crypto whitepaper,crypto_education,informational,seed
+what is liquidity in crypto markets,crypto_education,informational,seed
+how to avoid crypto scams,crypto_education,informational,seed
+what is impermanent loss,crypto_education,informational,seed
+how are crypto gains taxed,crypto_education,informational,seed
+best neobank for international transfers,fintech,commercial,seed
+how to send money to nigeria cheaply,fintech,commercial,seed
+how to compare international payment providers,fintech,commercial,seed
+what is open banking and how does it work,fintech,informational,seed
+how do payment gateways work,fintech,informational,seed
+best business bank account for startups,fintech,commercial,seed
+how does buy now pay later work,fintech,informational,seed
+what is a virtual card and how to get one,fintech,informational,seed
+how to accept crypto payments for a business,fintech,informational,seed
+best budgeting apps for freelancers,fintech,commercial,seed
+how does kyc verification work,fintech,informational,seed
+best way to receive international payments as a freelancer,fintech,commercial,seed
+crypto trading risk management,crypto_trading,informational,yex_gsc
+crypto portfolio risk management for beginners,crypto_trading,informational,yex_gsc
+crypto weekly recap,market_data,informational,yex_gsc
+crypto card for beginners,fintech,commercial,yex_gsc
+bitcoin halving history and price chart,crypto_education,informational,yex_gsc
+highest upside rwa crypto projects 2026,crypto_education,commercial,yex_gsc
+current btc usdt price on exchanges,market_data,informational,yex_gsc
+best crypto exchange,crypto_exchanges,commercial,similarweb_bybit
+copy trading in crypto and is it worth it,crypto_trading,commercial,similarweb_bybit
+best crypto trading bots,crypto_trading,commercial,similarweb_bybit
+best demo accounts for crypto trading,crypto_trading,commercial,similarweb_bybit
+crypto profit calculator,crypto_trading,transactional,similarweb_bitget
+what is apy in crypto,crypto_education,informational,similarweb_bybit
+what is bitcoin defi,crypto_education,informational,similarweb_bybit
+how to buy usdt with p2p,crypto_exchanges,transactional,similarweb_bybit
+can you get a usdt loan without collateral,crypto_exchanges,informational,similarweb_okx
+fear and greed index crypto,market_data,informational,similarweb_bitget
+what is bitcoin dominance and how to read it,market_data,informational,similarweb_bitget
+how does the altcoin season index work,market_data,informational,similarweb_gate
+is the bitcoin rainbow chart reliable,market_data,informational,similarweb_gate
+how to read a bitcoin liquidation heatmap,crypto_trading,informational,similarweb_gate
+common crypto chart patterns,crypto_trading,informational,similarweb_okx
+what are tokenized stocks,crypto_education,informational,similarweb_okx
+what is the strategic eth reserve,crypto_education,informational,similarweb_gate
+how do crypto etfs work,crypto_education,informational,similarweb_okx
+how do leverage tokens work,crypto_trading,informational,similarweb_gate
+has china banned cryptocurrency,crypto_education,informational,similarweb_bitget
+will crypto rebound,market_data,informational,similarweb_okx
+ethereum news today,market_data,informational,similarweb_okx
+bitcoin price today,market_data,informational,similarweb_bybit
+ethereum price,market_data,informational,similarweb_bybit
+solana price,market_data,informational,similarweb_bybit
+usdt to pkr,market_data,informational,similarweb_bybit
+usdt to ksh,market_data,informational,similarweb_bybit
+usdt to usd,market_data,informational,added
+pi network price today,market_data,informational,similarweb_bitget
+how do crypto trading competitions work,crypto_trading,informational,similarweb_litefinance
+free crypto trading competitions,crypto_trading,commercial,similarweb_litefinance
+how do crypto perpetuals work,crypto_trading,informational,keywordspeopleuse
+how do crypto futures work for beginners,crypto_trading,informational,keywordspeopleuse
+how does crypto staking work for beginners,crypto_education,informational,keywordspeopleuse
+how do crypto scams work,crypto_education,informational,keywordspeopleuse
+how does crypto work for beginners,crypto_education,informational,keywordspeopleuse
+is crypto mining still profitable,crypto_education,informational,keywordspeopleuse
+can crypto be traced,crypto_education,informational,keywordspeopleuse
+how to convert crypto to cash,crypto_exchanges,transactional,keywordspeopleuse
+where is crypto legal,crypto_education,informational,keywordspeopleuse
+usdt to ngn,market_data,informational,added
