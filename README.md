@@ -13,10 +13,11 @@ This extends my earlier paper on the gap between being cited and being clicked: 
 Three runs of the same 84 queries (2026-09-28, 2026-10-02, 2026-10-09), one engine. Treat these as preliminary.
 
 - **Per-query citations are unstable.** The overlap between cited domains for the same query was low: mean Jaccard 0.36 for runs 4 days apart, 0.33 for 7 days, and 0.28 for 11 days. For some queries, two runs shared no cited domains at all.
-- **Aggregates are more stable.** Nine domains appear in the top 15 most-cited domains in all three runs, and overall cite rates for query groups stay within a few points between runs.
+- **Aggregates are more stable, with limits.** Nine domains appear in the top 15 most-cited domains in all three runs, and the overall standard-query cite rate stays within 2 points (0.43 to 0.45). Category-level rates move more, by up to 11 points, so differences between categories are not reported.
 - **Live price queries are cited much less.** Cite rate was 0.15 to 0.23 for 8 live price queries (for example "bitcoin price today"), against 0.43 to 0.45 for the other 76. The ranges do not overlap. The sample of live price queries is small.
 - **Exchange domains as a group are cited at the baseline rate** (0.45 to 0.46 against a baseline of 0.43 to 0.45).
 - **A claim I retracted.** After run 1, Binance looked cited unusually often (0.68). Its rate fell in each later run (0.60, then 0.46) and is at baseline in run 3, so the apparent lead is not supported.
+- **Possible lead: a few finance sites.** Fidelity, IG, and Wise were cited in 82 to 95% of the query-domain pairs where they were retrieved, while other finance institutions (PayPal, Robinhood) were not. This rests on about 7 domains and a small number of distinct queries, so it is not a finding yet.
 
 Full notes, including limitations, are in `docs/findings.md`.
 

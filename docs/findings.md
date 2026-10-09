@@ -31,6 +31,14 @@
   Citation frequency aggregated across the full query set is comparatively stable.
   This is the main methodological finding so far.
 
+## Finance institutions check
+- On non-fintech queries, finance institutions were cited at 0.76 (54 pairs, pooled
+  over 3 runs, so about 18 distinct pairs). Other domain types: 0.37 to 0.49.
+- The effect comes from Fidelity (0.95), IG (0.92), and Wise (0.82). PayPal and
+  Robinhood are at 0.33. It is not a type-wide effect.
+- Possible explanation, untested: these sites are retrieved only on closely matching
+  topics, where they are then cited. Needs a larger query set to test.
+
 ## Open questions
 - Does the Jaccard figure change with a longer gap between runs, or a shorter one?
   Run 3 planned for approximately 2026-10-09 to check.
