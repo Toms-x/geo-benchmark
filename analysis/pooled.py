@@ -1,5 +1,8 @@
 import pandas as pd
 
+pd.set_option("display.width", 200)
+pd.set_option("display.max_columns", 20)
+
 df = pd.read_csv("data/citations.csv")
 qt = pd.read_csv("data/queries.csv")[["query", "query_type", "category"]]
 labels = pd.read_csv("analysis/domain_labels.csv")[["domain", "domain_type"]]
