@@ -50,3 +50,6 @@
 - Part of the query set came from exchange keyword data
 - Small per-domain and per-query counts
 - No click or traffic data included yet
+- Cited is defined as a numbered [n] marker in the answer text. Checked on all 252
+  raw answers: no other marker format found. A few answers (halving chart and profit
+  calculator queries) also use inline links, which are not counted.
