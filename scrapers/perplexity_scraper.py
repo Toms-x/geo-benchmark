@@ -95,9 +95,20 @@ def already_done(run_id):
 
 
 def main():
+    global QUERIES_FILE, OUT_FILE, RAW_DIR
     parser = argparse.ArgumentParser()
     parser.add_argument("--limit", type=int, default=None, help="only run the first N queries")
+    parser.add_argument("--queries", default=None)
+    parser.add_argument("--out", default=None)
+    parser.add_argument("--raw", default=None)
     args = parser.parse_args()
+
+    if args.queries:
+        QUERIES_FILE = ROOT / args.queries
+    if args.out:
+        OUT_FILE = ROOT / args.out
+    if args.raw:
+        RAW_DIR = ROOT / args.raw
 
     if not API_KEY:
         raise SystemExit("PERPLEXITY_API_KEY not found. Add it to your .env file.")
