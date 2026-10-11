@@ -1,0 +1,154 @@
+query,category,intent,source,query_type
+xrp price today,market_data,informational,draft_batch1,live_price
+dogecoin price,market_data,informational,draft_batch1,live_price
+bnb price,market_data,informational,draft_batch1,live_price
+cardano price today,market_data,informational,draft_batch1,live_price
+litecoin price,market_data,informational,draft_batch1,live_price
+toncoin price,market_data,informational,draft_batch1,live_price
+avalanche price today,market_data,informational,draft_batch1,live_price
+chainlink price,market_data,informational,draft_batch1,live_price
+shiba inu price,market_data,informational,draft_batch1,live_price
+polkadot price today,market_data,informational,draft_batch1,live_price
+bitcoin to usd,market_data,informational,draft_batch1,live_price
+ethereum to usd,market_data,informational,draft_batch1,live_price
+btc to ngn,market_data,informational,draft_batch1,live_price
+eth to ngn,market_data,informational,draft_batch1,live_price
+usdt to inr,market_data,informational,draft_batch1,live_price
+usdt to eur,market_data,informational,draft_batch1,live_price
+usdt to gbp,market_data,informational,draft_batch1,live_price
+usdt to aed,market_data,informational,draft_batch1,live_price
+usdt to ghs,market_data,informational,draft_batch1,live_price
+usdc to usd,market_data,informational,draft_batch1,live_price
+bitcoin price in naira,market_data,informational,draft_batch1,live_price
+btc dominance today,market_data,informational,draft_batch1,live_price
+total crypto market cap,market_data,informational,draft_batch1,live_price
+crypto market today,market_data,informational,draft_batch1,live_price
+top crypto gainers today,market_data,informational,draft_batch1,live_price
+how to buy a bitcoin etf,fintech,informational,draft_batch1,standard
+spot bitcoin etf vs buying bitcoin directly,fintech,commercial,draft_batch1,standard
+how are bitcoin etfs taxed,fintech,informational,draft_batch1,standard
+can i hold crypto in an ira,fintech,informational,draft_batch1,standard
+best high yield savings account,fintech,commercial,draft_batch1,standard
+how does a high yield savings account work,fintech,informational,draft_batch1,standard
+how to invest in tokenized treasury bills,fintech,informational,draft_batch1,standard
+what is a money market fund,fintech,informational,draft_batch1,standard
+how do stablecoin payments work for businesses,fintech,informational,draft_batch1,standard
+how to pay international suppliers in usd,fintech,informational,draft_batch1,standard
+how do wire transfers work,fintech,informational,draft_batch1,standard
+swift vs sepa transfers explained,fintech,informational,draft_batch1,standard
+how to open a us bank account as a non-resident,fintech,informational,draft_batch1,standard
+what is a multi currency account,fintech,informational,draft_batch1,standard
+best way to send money from nigeria to the us,fintech,commercial,draft_batch1,standard
+how to receive dollars from clients in nigeria,fintech,informational,draft_batch1,standard
+how does apple pay work,fintech,informational,draft_batch1,standard
+what is a digital wallet and is it safe,fintech,informational,draft_batch1,standard
+how do credit card chargebacks work,fintech,informational,draft_batch1,standard
+how does peer to peer lending work,fintech,informational,draft_batch1,standard
+what is a robo advisor and how does it work,fintech,informational,draft_batch1,standard
+best investing apps for beginners,fintech,commercial,draft_batch1,standard
+how does fractional share investing work,fintech,informational,draft_batch1,standard
+how does cross border payment settlement work,fintech,informational,draft_batch1,standard
+how are stablecoins taxed,fintech,informational,draft_batch1,standard
+how to track crypto taxes,fintech,informational,draft_batch1,standard
+what is a central bank digital currency,fintech,informational,draft_batch1,standard
+how do instant payment systems work,fintech,informational,draft_batch1,standard
+what is embedded finance,fintech,informational,draft_batch1,standard
+how to avoid fees when converting currency,fintech,informational,draft_batch1,standard
+best crypto exchange in the uk,crypto_exchanges,commercial,draft_batch2,standard
+best crypto exchange in nigeria,crypto_exchanges,commercial,draft_batch2,standard
+best crypto exchange in the uae,crypto_exchanges,commercial,draft_batch2,standard
+best crypto exchange in india,crypto_exchanges,commercial,draft_batch2,standard
+best crypto exchange for altcoins,crypto_exchanges,commercial,draft_batch2,standard
+best crypto exchange for staking,crypto_exchanges,commercial,draft_batch2,standard
+best crypto exchange for copy trading,crypto_exchanges,commercial,draft_batch2,standard
+best crypto exchange for margin trading,crypto_exchanges,commercial,draft_batch2,standard
+best crypto exchange for security,crypto_exchanges,commercial,draft_batch2,standard
+crypto exchange with the most trading pairs,crypto_exchanges,commercial,draft_batch2,standard
+how to open a crypto exchange account,crypto_exchanges,informational,draft_batch2,standard
+how to deposit money into a crypto exchange,crypto_exchanges,informational,draft_batch2,standard
+how long does crypto exchange verification take,crypto_exchanges,informational,draft_batch2,standard
+what happens if a crypto exchange goes bankrupt,crypto_exchanges,informational,draft_batch2,standard
+how do crypto exchanges make money,crypto_exchanges,informational,draft_batch2,standard
+centralized vs decentralized exchange,crypto_exchanges,informational,draft_batch2,standard
+how to use a decentralized exchange,crypto_exchanges,informational,draft_batch2,standard
+what is a crypto launchpad,crypto_exchanges,informational,draft_batch2,standard
+how to sell crypto for cash,crypto_exchanges,transactional,draft_batch2,standard
+how to buy crypto with a debit card,crypto_exchanges,transactional,draft_batch2,standard
+how to buy crypto with a bank transfer,crypto_exchanges,transactional,draft_batch2,standard
+what is an exchange insurance fund in crypto,crypto_exchanges,informational,draft_batch2,standard
+how to transfer crypto between exchanges,crypto_exchanges,informational,draft_batch2,standard
+what are crypto exchange withdrawal limits,crypto_exchanges,informational,draft_batch2,standard
+how to choose a crypto exchange in africa,crypto_exchanges,commercial,draft_batch2,standard
+how does margin trading work on a crypto exchange,crypto_exchanges,informational,draft_batch2,standard
+what is a blockchain and how does it work,crypto_education,informational,draft_batch2,standard
+what is a smart contract,crypto_education,informational,draft_batch2,standard
+what is a layer 2 in crypto,crypto_education,informational,draft_batch2,standard
+what is a crypto airdrop,crypto_education,informational,draft_batch2,standard
+what is a memecoin,crypto_education,informational,draft_batch2,standard
+what is a dao,crypto_education,informational,draft_batch2,standard
+what is an nft and how does it work,crypto_education,informational,draft_batch2,standard
+what is proof of stake,crypto_education,informational,draft_batch2,standard
+proof of work vs proof of stake,crypto_education,informational,draft_batch2,standard
+what is a crypto bridge,crypto_education,informational,draft_batch2,standard
+what is a seed phrase,crypto_education,informational,draft_batch2,standard
+what is gas in ethereum,crypto_education,informational,draft_batch2,standard
+what is tokenomics,crypto_education,informational,draft_batch2,standard
+what is a crypto rug pull,crypto_education,informational,draft_batch2,standard
+what is real world asset tokenization,crypto_education,informational,draft_batch2,standard
+what is restaking,crypto_education,informational,draft_batch2,standard
+what is liquid staking,crypto_education,informational,draft_batch2,standard
+what is a crypto oracle,crypto_education,informational,draft_batch2,standard
+what is the lightning network,crypto_education,informational,draft_batch2,standard
+what happens when a stablecoin loses its peg,crypto_education,informational,draft_batch2,standard
+how do algorithmic stablecoins work,crypto_education,informational,draft_batch2,standard
+what is a crypto mining pool,crypto_education,informational,draft_batch2,standard
+how does bitcoin mining work,crypto_education,informational,draft_batch2,standard
+how to get started in defi,crypto_education,informational,draft_batch2,standard
+what is yield farming,crypto_education,informational,draft_batch2,standard
+what is crypto custody,crypto_education,informational,draft_batch2,standard
+is bitcoin a good long term investment,crypto_education,commercial,draft_batch2,standard
+how to read candlestick charts,crypto_trading,informational,draft_batch2,standard
+what is a stop loss order in crypto,crypto_trading,informational,draft_batch2,standard
+what is dollar cost averaging in crypto,crypto_trading,informational,draft_batch2,standard
+how to calculate position size in crypto trading,crypto_trading,informational,draft_batch2,standard
+what is leverage in crypto trading,crypto_trading,informational,draft_batch2,standard
+what is a funding rate in perpetual futures,crypto_trading,informational,draft_batch2,standard
+how does crypto liquidation work,crypto_trading,informational,draft_batch2,standard
+what is slippage in crypto trading,crypto_trading,informational,draft_batch2,standard
+limit order vs market order in crypto,crypto_trading,informational,draft_batch2,standard
+crypto trading strategies for beginners,crypto_trading,informational,draft_batch2,standard
+how to day trade crypto,crypto_trading,informational,draft_batch2,standard
+how to swing trade crypto,crypto_trading,informational,draft_batch2,standard
+what is grid trading in crypto,crypto_trading,informational,draft_batch2,standard
+how does crypto arbitrage work,crypto_trading,informational,draft_batch2,standard
+how to use rsi in crypto trading,crypto_trading,informational,draft_batch2,standard
+what is macd and how to use it in crypto,crypto_trading,informational,draft_batch2,standard
+support and resistance levels in crypto,crypto_trading,informational,draft_batch2,standard
+what is open interest in crypto futures,crypto_trading,informational,draft_batch2,standard
+how does short selling work in crypto,crypto_trading,informational,draft_batch2,standard
+how does crypto options trading work,crypto_trading,informational,draft_batch2,standard
+how to backtest a crypto trading strategy,crypto_trading,informational,draft_batch2,standard
+what is a trailing stop in crypto,crypto_trading,informational,draft_batch2,standard
+how much money do you need to start trading crypto,crypto_trading,informational,draft_batch2,standard
+how to avoid emotional trading in crypto,crypto_trading,informational,draft_batch2,standard
+what is market making in crypto,crypto_trading,informational,draft_batch2,standard
+what is bitcoin hash rate and why does it matter,market_data,informational,draft_batch2,standard
+what is the bitcoin mvrv ratio,market_data,informational,draft_batch2,standard
+what is total value locked in defi,market_data,informational,draft_batch2,standard
+what are on-chain metrics in crypto,market_data,informational,draft_batch2,standard
+how to read a crypto order book,market_data,informational,draft_batch2,standard
+what is trading volume in crypto and why does it matter,market_data,informational,draft_batch2,standard
+market cap vs fully diluted valuation in crypto,market_data,informational,draft_batch2,standard
+circulating supply vs total supply in crypto,market_data,informational,draft_batch2,standard
+how do bitcoin etf flows work,market_data,informational,draft_batch2,standard
+what is the total stablecoin market cap,market_data,informational,draft_batch2,standard
+how to read a crypto heatmap,market_data,informational,draft_batch2,standard
+what is the bitcoin power law model,market_data,informational,draft_batch2,standard
+what is bitcoin realized price,market_data,informational,draft_batch2,standard
+how do crypto indexes work,market_data,informational,draft_batch2,standard
+what is the crypto volatility index,market_data,informational,draft_batch2,standard
+how to track crypto whale transactions,market_data,informational,draft_batch2,standard
+what is bitcoin supply in profit,market_data,informational,draft_batch2,standard
+what is the altcoin market cap,market_data,informational,draft_batch2,standard
+what is exchange netflow in crypto,market_data,informational,draft_batch2,standard
+what is the bitcoin 200 week moving average,market_data,informational,draft_batch2,standard
