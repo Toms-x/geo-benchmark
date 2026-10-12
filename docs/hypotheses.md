@@ -56,4 +56,17 @@ Category differences, Binance, Coinbase, price tracker differences, and anything
 found after the first confirmation run.
 
 ## Amendments
-None yet.
+### 2026-10-11 (run 1 collected, no confirmation analysis done yet)
+Details the text above left open, fixed in analysis/confirm_analysis.py:
+- H2, H3, H6a and H6b are computed on standard queries only, so the group and the
+  baseline use the same queries.
+- "Appears in N queries" means the domain was retrieved (not necessarily cited) for that
+  many distinct standard queries in that run.
+- H2: an interval is wide if its full width is above 0.10. A miss is called imprecise only
+  if every missed run has a wide interval.
+- H4: per-query Jaccard skips queries where neither run cited any domain.
+- H5: ranks use all confirmation queries, standard and live_price.
+- Intervals: 10,000 resamples of queries with a fixed seed. H1 resamples standard and
+  live_price queries separately.
+- Domains with no label are not in the exchange group. Domains in 3 or more queries are
+  labeled before the tests, with cite counts hidden, in analysis/domain_labels_confirm.csv.
