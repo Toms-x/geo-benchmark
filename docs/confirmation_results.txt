@@ -1,0 +1,66 @@
+Confirmation runs: 2026-10-11 and 2026-10-15 (4 days apart)
+  preset: ['fast'] vs ['fast']
+  search_context: ['low'] vs ['low']
+  response_model: ['openai/gpt-6-luna'] vs ['openai/gpt-6-luna']
+  share of standard-query pairs on unlabeled domains: 0.34
+
+H1. Live price vs standard. Need gap >= 0.15 and interval above 0, in each run.
+  2026-10-11: standard 0.383 (128 queries), live_price 0.209 (25 queries), gap +0.174, 95% interval [+0.125, +0.218] -> pass
+  2026-10-15: standard 0.400 (128 queries), live_price 0.188 (25 queries), gap +0.212, 95% interval [+0.153, +0.264] -> pass
+  RESULT H1: SUPPORTED
+
+H2. Exchange domains within 0.05 of baseline, in each run (standard queries).
+  2026-10-11: group 0.437 in 83 queries, baseline 0.383, gap +0.054, 95% interval [-0.005, +0.110] -> miss
+  2026-10-15: group 0.457 in 78 queries, baseline 0.400, gap +0.057, 95% interval [-0.009, +0.122] -> miss
+  RESULT H2: NOT SUPPORTED, IMPRECISE (every miss has a wide interval)
+
+H3. Finance group above baseline by >= 0.15 and interval above 0, in each run (standard queries). Judged only if the group is retrieved in >= 15 queries per run.
+  2026-10-11: group 0.523 in 36 queries, baseline 0.383, gap +0.139, 95% interval [-0.012, +0.297]
+      fidelity.com: retrieved in 12 queries, cited in 5, rate 0.42
+      ig.com: retrieved in 6 queries, cited in 3, rate 0.50
+      wise.com: retrieved in 6 queries, cited in 4, rate 0.67
+      paypal.com: retrieved in 4 queries, cited in 2, rate 0.50
+      stripe.com: retrieved in 11 queries, cited in 5, rate 0.45
+      robinhood.com: retrieved in 2 queries, cited in 1, rate 0.50
+      investor.gov: retrieved in 3 queries, cited in 3, rate 1.00
+  2026-10-15: group 0.529 in 39 queries, baseline 0.400, gap +0.130, 95% interval [-0.004, +0.272]
+      fidelity.com: retrieved in 13 queries, cited in 6, rate 0.46
+      ig.com: retrieved in 6 queries, cited in 4, rate 0.67
+      wise.com: retrieved in 9 queries, cited in 4, rate 0.44
+      paypal.com: retrieved in 6 queries, cited in 3, rate 0.50
+      stripe.com: retrieved in 12 queries, cited in 5, rate 0.42
+      robinhood.com: retrieved in 2 queries, cited in 2, rate 1.00
+      investor.gov: retrieved in 3 queries, cited in 3, rate 1.00
+  RESULT H3: NOT SUPPORTED
+
+H4. Mean per-query Jaccard overlap between the two runs, standard queries, below 0.5 with the interval's upper end also below 0.5.
+  standard queries: mean 0.380 over 128 queries, 95% interval [0.340, 0.422]
+  all queries (reported only): mean 0.375 over 153 queries, 95% interval [0.335, 0.416]
+  RESULT H4: SUPPORTED
+
+H5. At least 8 of the top 15 cited domains are shared between the runs (all confirmation queries, ties at 15th place included).
+  2026-10-11: 17 domains in the top group. 2026-10-15: 15 domains.
+  shared: 11
+  only in 2026-10-11: ['bit.com', 'bybit.com', 'coinbureau.com', 'cryptoslate.com', 'finder.com', 'okx.com']
+  only in 2026-10-15: ['fidelity.com', 'ledger.com', 'osl.com', 'schwab.com']
+  RESULT H5: SUPPORTED
+
+H6a. kraken.com: gap >= +0.10 and interval excludes zero, in each run (standard queries). Judged only if retrieved in >= 15 queries per run.
+  2026-10-11: group 0.455 in 22 queries, baseline 0.383, gap +0.071, 95% interval [-0.132, +0.283]
+  2026-10-15: group 0.650 in 20 queries, baseline 0.400, gap +0.250, 95% interval [+0.033, +0.453]
+  RESULT H6a: NOT SUPPORTED
+
+H6b. okx.com: gap <= -0.05 and interval excludes zero, in each run (standard queries). Judged only if retrieved in >= 15 queries per run.
+  2026-10-11: group 0.429 in 7 queries, baseline 0.383, gap +0.045, 95% interval [-0.382, +0.463]
+  2026-10-15: group 0.500 in 2 queries, baseline 0.400, gap +0.100, 95% interval [-0.420, +0.619]
+  RESULT H6b: UNTESTED (okx.com appears in fewer than 15 queries in at least one run)
+
+SUMMARY
+  H1: SUPPORTED
+  H2: NOT SUPPORTED, IMPRECISE (every miss has a wide interval)
+  H3: NOT SUPPORTED
+  H4: SUPPORTED
+  H5: SUPPORTED
+  H6a: NOT SUPPORTED
+  H6b: UNTESTED (okx.com appears in fewer than 15 queries in at least one run)
+Seven tests were run, so some will pass or fail by chance. Report all of them.
