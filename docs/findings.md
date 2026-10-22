@@ -53,3 +53,33 @@
 - Cited is defined as a numbered [n] marker in the answer text. Checked on all 252
   raw answers: no other marker format found. A few answers (halving chart and profit
   calculator queries) also use inline links, which are not counted.
+- The 153 confirmation queries were drafted from general knowledge, not
+  taken from search data. 39 of 40 randomly sampled standard queries were found in Google
+  autocomplete. They may read more like textbook questions than real searches. Confirmation 2
+  uses queries from autocomplete and People Also Ask suggestions to address this.
+- Only 8 (exploration) and 25 (confirmation) live price queries.
+
+  ## Confirmation 1 (runs 2026-10-11 and 2026-10-15)
+- 153 queries (128 standard, 25 live_price), drafted from general
+  knowledge. Hypotheses, query set, analysis script and labels were committed before the
+  tests were run. Same engine, preset (fast), search context (low) and reported model
+  (openai/gpt-6-luna) in both runs, 4 days apart.
+- The domain labels file was committed empty first and filled by the script in the same
+  commit chain (876664d). No results had been seen at that point.
+- H1 supported. Live price vs standard gap +0.174 and +0.212, intervals [+0.125, +0.218]
+  and [+0.153, +0.264].
+- H2 not supported, imprecise. Exchange group +0.054 and +0.057 above baseline, intervals
+  include zero. Cannot be told apart from no difference.
+- H3 not supported. Finance group +0.139 and +0.130, below the 0.15 threshold, intervals
+  include zero. Fidelity fell from 0.95 in exploration to 0.42 and 0.46.
+- H4 supported. Mean Jaccard overlap 0.380 on standard queries, interval [0.340, 0.422].
+- H5 supported. 11 domains shared between the two top groups (17 and 15 with ties).
+- H6a not supported. Kraken +0.071 in run 1 (interval [-0.132, +0.283]) and +0.250 in run 2
+  (interval [+0.033, +0.453]). Both runs had to pass.
+- H6b untested. OKX appeared in 7 and 2 standard queries, under the 15 needed.
+- Result: 3 supported, 3 not supported, 1 untested. Full output in
+  docs/confirmation_results.txt.
+- One query in run 2 returned 20 sources instead of about 10.
+- Baseline cite rate was lower on these queries (0.38 to 0.40) than in exploration
+  (0.43 to 0.45). Cause unknown.
+- Unlabeled domains made up 0.34 of standard-query pairs (about 0.59 in exploration).
