@@ -7,3 +7,5 @@ __pycache__/
 data/raw/
 data/queries_backup.csv
 data/raw_confirm/
+data/raw_suggestions/kpu_*.csv
+data/raw_suggestions/kpu_*.csv

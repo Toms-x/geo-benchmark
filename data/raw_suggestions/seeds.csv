@@ -1,0 +1,30 @@
+seed,category
+bitcoin,crypto_education
+ethereum,crypto_education
+stablecoin,crypto_education
+crypto wallet,crypto_education
+staking,crypto_education
+defi,crypto_education
+crypto exchange,crypto_exchanges
+buy crypto,crypto_exchanges
+sell crypto,crypto_exchanges
+crypto withdrawal,crypto_exchanges
+crypto trading,crypto_trading
+crypto futures,crypto_trading
+crypto leverage,crypto_trading
+trading bot,crypto_trading
+crypto market,market_data
+bitcoin price,market_data
+ethereum price,market_data
+solana price,market_data
+xrp price,market_data
+usdt to,market_data
+bank account,fintech
+send money abroad,fintech
+credit card,fintech
+loan,fintech
+savings account,fintech
+investing,fintech
+etf,fintech
+payment app,fintech
+crypto tax,fintech
