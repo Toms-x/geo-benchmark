@@ -1,0 +1,104 @@
+Raw rows: 1558 People Also Ask, 3356 autocomplete. Unresolved malformed rows: 0
+
+Dropped, by source and rule:
+  kpu_autocomplete   advice or prediction               546
+  kpu_autocomplete   already in an earlier query set    1
+  kpu_autocomplete   brand                              175
+  kpu_autocomplete   duplicate (repeats and cross-seed) 132
+  kpu_autocomplete   future year                        11
+  kpu_autocomplete   near-duplicate template            23
+  kpu_autocomplete   non-ascii                          1
+  kpu_autocomplete   off-topic (no anchor term)         171
+  kpu_autocomplete   personal scenario                  4
+  kpu_autocomplete   place or forum                     214
+  kpu_autocomplete   too short                          396
+  kpu_paa            advice or prediction               158
+  kpu_paa            brand                              182
+  kpu_paa            duplicate (repeats and cross-seed) 434
+  kpu_paa            future year                        26
+  kpu_paa            near-duplicate template            2
+  kpu_paa            off-topic (no anchor term)         150
+  kpu_paa            personal scenario                  220
+  kpu_paa            place or forum                     18
+  kpu_paa            too long                           25
+Most frequent brand terms removed: coinbase (32), paypal (31), zelle (31), binance (31), apple (29), kraken (22), gcash (18), reddit (15), venmo (15), revolut (15), robinhood (14), fidelity (13), google (6), chime (5), trump (5)
+
+Pool after rules: 2025 (1935 standard, 90 live_price)
+  crypto_education   paa   66 | autocomplete  357
+  crypto_exchanges   paa   56 | autocomplete  175
+  crypto_trading     paa   18 | autocomplete  140
+  fintech            paa  136 | autocomplete  775
+  market_data        paa   53 | autocomplete  159
+  live_price pool by kind: {'other': 17, 'price': 42, 'conversion': 31}
+
+Wrote 200 queries to data/queries_confirm2.csv (random seed 20261022)
+Shortfalls: none
+By category and type:
+category          query_type
+crypto_education  live_price     3
+                  standard      32
+crypto_exchanges  standard      32
+crypto_trading    live_price     2
+                  standard      32
+fintech           standard      32
+market_data       live_price    35
+                  standard      32
+dtype: int64
+By source:
+source
+kpu_autocomplete    114
+kpu_paa              86
+Name: count, dtype: int64
+By seed (max):
+seed
+usdt to            17
+crypto market      15
+crypto trading     12
+solana price       12
+buy crypto         10
+crypto exchange    10
+crypto leverage    10
+crypto futures     10
+Name: count, dtype: int64
+
+All live_price queries chosen:
+  what's ethereum price now
+  what is xrp price today in usd
+  what is the current price of xrp in usd
+  what is ethereum price usd
+  what is the price of solana
+  where is bitcoin price now
+  what is solana price in usd
+  what is the current price of stablecoin
+  what is bitcoin price in usd
+  what's solana price today
+  where is xrp price today
+  what's xrp price today
+  what bitcoin price today
+  what is ethereum price now
+  how price bitcoin now
+  what is solana price today
+  how bitcoin price today
+  what's ethereum price today
+  what is the current price of trc20-usdt
+  what is solana price now
+  what usd to cad
+  can usd to gbp
+  what usdt to naira
+  what usd to gbp
+  how usd to naira
+  can usd to pkr
+  how usd to aud
+  what usd to aud
+  cad to usd today
+  can usd to inr
+  what is the crypto market doing right now
+  what is the total market cap of cryptocurrency
+  what's xrp trading at today
+  what's ethereum market cap
+  how's crypto market today
+  what's bitcoin's market cap right now
+  what's happening with the crypto market right now
+  what's crypto trading at today
+  what's crypto market cap
+  what's bitcoin's market cap today

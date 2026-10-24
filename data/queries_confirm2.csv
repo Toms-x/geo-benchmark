@@ -1,0 +1,201 @@
+query,category,intent,source,query_type,seed
+what are the top 3 stablecoins,crypto_education,,kpu_paa,standard,staking
+what does staking mean in crypto trading,crypto_education,,kpu_paa,standard,staking
+can i buy bitcoin for 100 rupees,crypto_education,,kpu_paa,standard,bitcoin
+how can i earn btc for free,crypto_education,,kpu_paa,standard,bitcoin
+what are the typical interest rates for stablecoins,crypto_education,,kpu_paa,standard,stablecoin
+can we buy bitcoin for 1000 rupees,crypto_education,,kpu_paa,standard,bitcoin
+what are the four types of cryptocurrency,crypto_education,,kpu_paa,standard,crypto wallet
+how much is 1 bitcoin 2 years ago,crypto_education,,kpu_paa,standard,bitcoin
+what exactly is ethereum,crypto_education,,kpu_paa,standard,ethereum
+which wallet has usdt trc20,crypto_education,,kpu_paa,standard,crypto wallet
+what is the most famous stablecoin,crypto_education,,kpu_paa,standard,stablecoin
+who is the largest shareholder of tether,crypto_education,,kpu_paa,standard,stablecoin
+what is the current stake rate for ethereum,crypto_education,,kpu_paa,standard,staking
+what is the best software for bitcoin mining,crypto_education,,kpu_paa,standard,bitcoin
+what are gas fees for usdt,crypto_education,,kpu_paa,standard,crypto wallet
+why is tether in trouble,crypto_education,,kpu_paa,standard,stablecoin
+is crypto wallet real money,crypto_education,,kpu_autocomplete,standard,crypto wallet
+where does stablecoin come from,crypto_education,,kpu_autocomplete,standard,stablecoin
+when bitcoin started how much was it,crypto_education,,kpu_autocomplete,standard,bitcoin
+which ethereum etf pays dividends,crypto_education,,kpu_autocomplete,standard,ethereum
+is bitcoin mining profitable,crypto_education,,kpu_autocomplete,standard,bitcoin
+does circle issue stablecoin,crypto_education,,kpu_autocomplete,standard,stablecoin
+where to find crypto wallet address,crypto_education,,kpu_autocomplete,standard,crypto wallet
+can crypto wallet be frozen,crypto_education,,kpu_autocomplete,standard,crypto wallet
+why is staking crypto important,crypto_education,,kpu_autocomplete,standard,staking
+where is my defi wallet,crypto_education,,kpu_autocomplete,standard,defi
+when bitcoin was created,crypto_education,,kpu_autocomplete,standard,bitcoin
+how to defi pdf,crypto_education,,kpu_autocomplete,standard,defi
+where are defi gauges made,crypto_education,,kpu_autocomplete,standard,defi
+is stablecoin a digital asset,crypto_education,,kpu_autocomplete,standard,stablecoin
+is crypto wallet address traceable,crypto_education,,kpu_autocomplete,standard,crypto wallet
+is crypto wallet secure,crypto_education,,kpu_autocomplete,standard,crypto wallet
+where can i buy bitcoin,crypto_exchanges,,kpu_paa,standard,buy crypto
+can you get bitcoin without id,crypto_exchanges,,kpu_paa,standard,buy crypto
+can crypto be traced by police,crypto_exchanges,,kpu_paa,standard,crypto exchange
+can you provide me with a list of all crypto exchanges,crypto_exchanges,,kpu_paa,standard,crypto exchange
+how do you sell bitcoin,crypto_exchanges,,kpu_paa,standard,crypto withdrawal
+how to avoid crypto taxes,crypto_exchanges,,kpu_paa,standard,crypto exchange
+where's the best place to buy crypto,crypto_exchanges,,kpu_paa,standard,buy crypto
+how does crypto staking work,crypto_exchanges,,kpu_paa,standard,crypto withdrawal
+which credit card is best for crypto,crypto_exchanges,,kpu_paa,standard,buy crypto
+where is the best place to buy ethereum,crypto_exchanges,,kpu_paa,standard,buy crypto
+is crypto trading gambling,crypto_exchanges,,kpu_paa,standard,crypto exchange
+is crypto taxable,crypto_exchanges,,kpu_paa,standard,crypto exchange
+can i buy cryptocurrency using my credit card anonymously,crypto_exchanges,,kpu_paa,standard,buy crypto
+can i buy bitcoin in 100 rupees,crypto_exchanges,,kpu_paa,standard,buy crypto
+how much do you pay taxes on crypto,crypto_exchanges,,kpu_paa,standard,crypto exchange
+how can i transfer crypto to my bank account,crypto_exchanges,,kpu_paa,standard,sell crypto
+how crypto currency created,crypto_exchanges,,kpu_autocomplete,standard,crypto exchange
+what crypto exchange accepts prepaid cards,crypto_exchanges,,kpu_autocomplete,standard,crypto exchange
+where can i buy crypto without id,crypto_exchanges,,kpu_autocomplete,standard,sell crypto
+how long does crypto withdrawal take,crypto_exchanges,,kpu_autocomplete,standard,crypto withdrawal
+is crypto currency real,crypto_exchanges,,kpu_autocomplete,standard,crypto exchange
+what is ethereum withdrawal,crypto_exchanges,,kpu_autocomplete,standard,crypto withdrawal
+who sold bitcoin recently,crypto_exchanges,,kpu_autocomplete,standard,sell crypto
+what is crypto withdrawal,crypto_exchanges,,kpu_autocomplete,standard,crypto withdrawal
+how crypto exchange works,crypto_exchanges,,kpu_autocomplete,standard,crypto exchange
+where buy bitcoin etf,crypto_exchanges,,kpu_autocomplete,standard,buy crypto
+what does bitcoin withdrawal mean,crypto_exchanges,,kpu_autocomplete,standard,crypto withdrawal
+why buy cryptocurrency for beginners,crypto_exchanges,,kpu_autocomplete,standard,buy crypto
+why bitcoin sell off,crypto_exchanges,,kpu_autocomplete,standard,sell crypto
+can buy crypto in moomoo,crypto_exchanges,,kpu_autocomplete,standard,buy crypto
+why are withdrawals disabled on crypto com,crypto_exchanges,,kpu_autocomplete,standard,crypto withdrawal
+what is crypto withdrawal in coindcx,crypto_exchanges,,kpu_autocomplete,standard,crypto withdrawal
+how do crypto bots work,crypto_trading,,kpu_paa,standard,trading bot
+what is 50x leverage in crypto,crypto_trading,,kpu_paa,standard,crypto leverage
+how can i buy and sell cryptocurrency,crypto_trading,,kpu_paa,standard,crypto trading
+who is the richest btc owner,crypto_trading,,kpu_paa,standard,crypto futures
+is it legal to use bots to trade crypto,crypto_trading,,kpu_paa,standard,trading bot
+what are crypto futures,crypto_trading,,kpu_paa,standard,crypto futures
+how to use bitcoin,crypto_trading,,kpu_paa,standard,crypto trading
+what is a bitcoin wallet,crypto_trading,,kpu_paa,standard,crypto trading
+where to trade futures,crypto_trading,,kpu_paa,standard,crypto futures
+how does crypto work,crypto_trading,,kpu_paa,standard,crypto trading
+how much leverage is there in crypto,crypto_trading,,kpu_paa,standard,crypto leverage
+what is bitcoin and how do i use it,crypto_trading,,kpu_paa,standard,crypto trading
+"what does ""crypto"" mean in slang",crypto_trading,,kpu_paa,standard,crypto futures
+how much is 2000 bitcoin worth in us dollars,crypto_trading,,kpu_paa,standard,crypto trading
+is there a 3x leveraged etf for bitcoin,crypto_trading,,kpu_paa,standard,crypto leverage
+how do i use a bitcoin machine for the first time,crypto_trading,,kpu_paa,standard,crypto trading
+what is crypto leverage trading,crypto_trading,,kpu_autocomplete,standard,crypto leverage
+what's crypto trading all about,crypto_trading,,kpu_autocomplete,standard,crypto trading
+how trade crypto futures,crypto_trading,,kpu_autocomplete,standard,crypto futures
+where can i leverage crypto,crypto_trading,,kpu_autocomplete,standard,crypto leverage
+what's xrp trading at,crypto_trading,,kpu_autocomplete,standard,crypto trading
+where is xrp trading today,crypto_trading,,kpu_autocomplete,standard,crypto trading
+what are crypto futures contracts,crypto_trading,,kpu_autocomplete,standard,crypto futures
+can you trade crypto futures in the us,crypto_trading,,kpu_autocomplete,standard,crypto futures
+is crypto over leveraged,crypto_trading,,kpu_autocomplete,standard,crypto leverage
+how crypto futures work,crypto_trading,,kpu_autocomplete,standard,crypto futures
+what is crypto leverage,crypto_trading,,kpu_autocomplete,standard,crypto leverage
+is crypto futures haram,crypto_trading,,kpu_autocomplete,standard,crypto futures
+how to trade crypto leverage in us,crypto_trading,,kpu_autocomplete,standard,crypto leverage
+do crypto futures exist,crypto_trading,,kpu_autocomplete,standard,crypto futures
+is crypto leverage trading legal in the us,crypto_trading,,kpu_autocomplete,standard,crypto leverage
+where can i leverage btc,crypto_trading,,kpu_autocomplete,standard,crypto leverage
+what high-yield savings accounts offer bonuses,fintech,,kpu_paa,standard,savings account
+is a money market account a savings account,fintech,,kpu_paa,standard,savings account
+are savings accounts safer,fintech,,kpu_paa,standard,savings account
+what is a digital wallet and how does it work,fintech,,kpu_paa,standard,payment app
+how do i dispute a credit card charge,fintech,,kpu_paa,standard,credit card
+what type of credit card do you need to build credit,fintech,,kpu_paa,standard,credit card
+what are the odds of winning a credit card dispute,fintech,,kpu_paa,standard,credit card
+what are the top 5 payment apps,fintech,,kpu_paa,standard,payment app
+what is the tax on crypto,fintech,,kpu_paa,standard,crypto tax
+what are the main payment apps,fintech,,kpu_paa,standard,payment app
+is virtual currency real money,fintech,,kpu_paa,standard,crypto tax
+what is virtual currency,fintech,,kpu_paa,standard,crypto tax
+what is the meaning of etf,fintech,,kpu_paa,standard,etf
+what are the different ways to send money internationally,fintech,,kpu_paa,standard,send money abroad
+what tax is paid on cryptocurrency,fintech,,kpu_paa,standard,crypto tax
+how to lower a mortgage payment,fintech,,kpu_paa,standard,loan
+where is etf airways from,fintech,,kpu_autocomplete,standard,etf
+what savings account has the highest apy,fintech,,kpu_autocomplete,standard,savings account
+which bank account for kids,fintech,,kpu_autocomplete,standard,bank account
+is credit card interest monthly,fintech,,kpu_autocomplete,standard,credit card
+when investing what is the rule of 72,fintech,,kpu_autocomplete,standard,investing
+tax when sending money abroad,fintech,,kpu_autocomplete,standard,send money abroad
+can savings account be negative,fintech,,kpu_autocomplete,standard,savings account
+does crypto tax calculator have an app,fintech,,kpu_autocomplete,standard,crypto tax
+where etf invest money,fintech,,kpu_autocomplete,standard,etf
+how loan interest is calculated,fintech,,kpu_autocomplete,standard,loan
+what credit card has the highest limit,fintech,,kpu_autocomplete,standard,credit card
+what loan plans qualify for pslf,fintech,,kpu_autocomplete,standard,loan
+who do i pay crypto taxes to,fintech,,kpu_autocomplete,standard,crypto tax
+how savings account interest rate is calculated,fintech,,kpu_autocomplete,standard,savings account
+what is sending money internationally,fintech,,kpu_autocomplete,standard,send money abroad
+how to send money abroad easily,fintech,,kpu_autocomplete,standard,send money abroad
+what is solana used for,market_data,,kpu_paa,standard,solana price
+who created ethereum,market_data,,kpu_paa,standard,ethereum price
+what are the top 3 cryptos right now,market_data,,kpu_paa,standard,crypto market
+how does staking work on ethereum,market_data,,kpu_paa,standard,ethereum price
+what is the current support level for xrp,market_data,,kpu_paa,standard,xrp price
+what is solana,market_data,,kpu_paa,standard,solana price
+how do i convert usdt to cash,market_data,,kpu_paa,standard,usdt to
+how much is r500 in usdt,market_data,,kpu_paa,standard,usdt to
+how much is usdt worth in usd,market_data,,kpu_paa,standard,usdt to
+what's the reason for the bitcoin crash,market_data,,kpu_paa,standard,bitcoin price
+is solana better than xrp,market_data,,kpu_paa,standard,solana price
+is 1 usdc equal 1 usd,market_data,,kpu_paa,standard,usdt to
+when was solana launched and what was its initial price,market_data,,kpu_paa,standard,solana price
+how much solana is 1000 dollars,market_data,,kpu_paa,standard,solana price
+what does the name solana mean,market_data,,kpu_paa,standard,solana price
+who is the richest crypto owner,market_data,,kpu_paa,standard,ethereum price
+when bitcoin price in 2015,market_data,,kpu_autocomplete,standard,bitcoin price
+which usdt to choose,market_data,,kpu_autocomplete,standard,usdt to
+is usdt on ethereum,market_data,,kpu_autocomplete,standard,usdt to
+can xrp market cap change,market_data,,kpu_autocomplete,standard,crypto market
+why is solana good,market_data,,kpu_autocomplete,standard,solana price
+what was ethereum price in 2020,market_data,,kpu_autocomplete,standard,ethereum price
+what was xrp price in 2020,market_data,,kpu_autocomplete,standard,xrp price
+can crypto market cap increase,market_data,,kpu_autocomplete,standard,crypto market
+how bitcoin price is decided,market_data,,kpu_autocomplete,standard,bitcoin price
+who controls crypto market,market_data,,kpu_autocomplete,standard,crypto market
+which usdt to use,market_data,,kpu_autocomplete,standard,usdt to
+who is crashing the crypto market,market_data,,kpu_autocomplete,standard,crypto market
+when crypto market structure bill,market_data,,kpu_autocomplete,standard,crypto market
+how is crypto market now,market_data,,kpu_autocomplete,standard,crypto market
+why bitcoin price is so high today,market_data,,kpu_autocomplete,standard,bitcoin price
+who are crypto market makers,market_data,,kpu_autocomplete,standard,crypto market
+what's ethereum price now,market_data,,kpu_autocomplete,live_price,ethereum price
+what is xrp price today in usd,market_data,,kpu_autocomplete,live_price,xrp price
+what is the current price of xrp in usd,market_data,,kpu_paa,live_price,xrp price
+what is ethereum price usd,market_data,,kpu_autocomplete,live_price,ethereum price
+what is the price of solana,market_data,,kpu_autocomplete,live_price,solana price
+where is bitcoin price now,market_data,,kpu_autocomplete,live_price,bitcoin price
+what is solana price in usd,market_data,,kpu_autocomplete,live_price,solana price
+what is the current price of stablecoin,crypto_education,,kpu_paa,live_price,stablecoin
+what is bitcoin price in usd,market_data,,kpu_autocomplete,live_price,bitcoin price
+what's solana price today,market_data,,kpu_autocomplete,live_price,solana price
+where is xrp price today,market_data,,kpu_autocomplete,live_price,xrp price
+what's xrp price today,market_data,,kpu_autocomplete,live_price,xrp price
+what bitcoin price today,market_data,,kpu_autocomplete,live_price,bitcoin price
+what is ethereum price now,market_data,,kpu_autocomplete,live_price,ethereum price
+how price bitcoin now,market_data,,kpu_autocomplete,live_price,bitcoin price
+what is solana price today,market_data,,kpu_autocomplete,live_price,solana price
+how bitcoin price today,market_data,,kpu_autocomplete,live_price,bitcoin price
+what's ethereum price today,crypto_education,,kpu_autocomplete,live_price,ethereum
+what is the current price of trc20-usdt,crypto_education,,kpu_paa,live_price,crypto wallet
+what is solana price now,market_data,,kpu_autocomplete,live_price,solana price
+what usd to cad,market_data,,kpu_autocomplete,live_price,usdt to
+can usd to gbp,market_data,,kpu_autocomplete,live_price,usdt to
+what usdt to naira,market_data,,kpu_autocomplete,live_price,usdt to
+what usd to gbp,market_data,,kpu_autocomplete,live_price,usdt to
+how usd to naira,market_data,,kpu_autocomplete,live_price,usdt to
+can usd to pkr,market_data,,kpu_autocomplete,live_price,usdt to
+how usd to aud,market_data,,kpu_autocomplete,live_price,usdt to
+what usd to aud,market_data,,kpu_autocomplete,live_price,usdt to
+cad to usd today,market_data,,kpu_autocomplete,live_price,usdt to
+can usd to inr,market_data,,kpu_autocomplete,live_price,usdt to
+what is the crypto market doing right now,market_data,,kpu_paa,live_price,crypto market
+what is the total market cap of cryptocurrency,market_data,,kpu_paa,live_price,ethereum price
+what's xrp trading at today,crypto_trading,,kpu_autocomplete,live_price,crypto trading
+what's ethereum market cap,market_data,,kpu_autocomplete,live_price,crypto market
+how's crypto market today,market_data,,kpu_autocomplete,live_price,crypto market
+what's bitcoin's market cap right now,market_data,,kpu_autocomplete,live_price,crypto market
+what's happening with the crypto market right now,market_data,,kpu_paa,live_price,crypto market
+what's crypto trading at today,crypto_trading,,kpu_autocomplete,live_price,crypto trading
+what's crypto market cap,market_data,,kpu_autocomplete,live_price,crypto market
+what's bitcoin's market cap today,market_data,,kpu_autocomplete,live_price,crypto market
