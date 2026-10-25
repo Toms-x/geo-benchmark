@@ -70,6 +70,7 @@ A run of 153 queries costs about 25 cents. The scraper is resumable within a day
 - The baseline cite rate was lower on confirmation queries (0.38 to 0.40) than in exploration (0.43 to 0.45), cause unknown
 - A few queries returned 20 sources instead of about 10
 - Click and traffic data are not included, so this covers the citation side only
+- Raw exports from the query tool are not redistributed; SHA-256 checksums are in data/raw_suggestions/checksums.txt
 
 ## Status
 
