@@ -1,0 +1,61 @@
+Confirmation 2 runs: 2026-10-24 and 2026-10-27 (3 days apart)
+  preset: ['fast'] vs ['fast']
+  search_context: ['low'] vs ['low']
+  response_model: ['openai/gpt-6-luna'] vs ['openai/gpt-6-luna']
+  share of standard-query pairs on unlabeled domains: 0.36
+
+H1. Live price vs standard. Need gap >= 0.15 and interval above 0, in each run. Live queries are resampled by topic.
+  40 live queries in 17 topics: bitcoin|market, bitcoin|price, crypto|market, ethereum|market, ethereum|price, pair:aud-usd, pair:cad-usd, pair:gbp-usd, pair:inr-usd, pair:ngn-usd, pair:ngn-usdt, pair:pkr-usd, solana|price, stablecoin|price, usdt|price, xrp|market, xrp|price
+  2026-10-24: standard 0.340 (160 queries), live_price 0.213 (40 queries), gap +0.128, 95% interval [+0.070, +0.181] -> fail
+  2026-10-27: standard 0.336 (160 queries), live_price 0.217 (40 queries), gap +0.119, 95% interval [+0.064, +0.175] -> fail
+  RESULT H1: NOT SUPPORTED
+
+H2. Exchange domains above baseline by >= 0.03 and interval above 0, in each run (standard queries).
+  2026-10-24: group 0.353 in 87 queries, baseline 0.340, gap +0.012, 95% interval [-0.057, +0.076]
+  2026-10-27: group 0.391 in 76 queries, baseline 0.336, gap +0.055, 95% interval [-0.019, +0.125]
+  RESULT H2: NOT SUPPORTED
+
+H3. Finance group above baseline by >= 0.10 and interval above 0, in each run (standard queries). Judged only if retrieved in >= 15 queries per run.
+  2026-10-24: group 0.553 in 37 queries, baseline 0.340, gap +0.213, 95% interval [+0.063, +0.361]
+      fidelity.com: retrieved in 19 queries, cited in 11, rate 0.58
+      ig.com: retrieved in 5 queries, cited in 3, rate 0.60
+      wise.com: retrieved in 6 queries, cited in 4, rate 0.67
+      paypal.com: retrieved in 6 queries, cited in 2, rate 0.33
+      stripe.com: retrieved in 5 queries, cited in 2, rate 0.40
+      robinhood.com: retrieved in 2 queries, cited in 1, rate 0.50
+      investor.gov: retrieved in 4 queries, cited in 3, rate 0.75
+  2026-10-27: group 0.479 in 38 queries, baseline 0.336, gap +0.143, 95% interval [+0.008, +0.287]
+      fidelity.com: retrieved in 17 queries, cited in 7, rate 0.41
+      ig.com: retrieved in 6 queries, cited in 2, rate 0.33
+      wise.com: retrieved in 5 queries, cited in 5, rate 1.00
+      paypal.com: retrieved in 7 queries, cited in 2, rate 0.29
+      stripe.com: retrieved in 6 queries, cited in 2, rate 0.33
+      robinhood.com: retrieved in 2 queries, cited in 0, rate 0.00
+      investor.gov: retrieved in 5 queries, cited in 5, rate 1.00
+  RESULT H3: SUPPORTED
+
+H4. Mean per-query Jaccard overlap between the two runs, standard queries, below 0.5 with the interval's upper end also below 0.5.
+  standard queries: mean 0.454 over 159 queries, 95% interval [0.409, 0.499]
+  all queries (reported only): mean 0.438 over 199 queries, 95% interval [0.396, 0.482]
+  RESULT H4: SUPPORTED
+
+H5. At least 8 of the top 15 cited domains are shared between the runs (all queries, ties at 15th place included).
+  2026-10-24: 15 domains in the top group. 2026-10-27: 18 domains.
+  shared: 14
+  only in 2026-10-24: ['tradingview.com']
+  only in 2026-10-27: ['cryptoslate.com', 'nerdwallet.com', 'schwab.com', 'xe.com']
+  RESULT H5: SUPPORTED
+
+H6. kraken.com above baseline by >= 0.10 and interval above 0, in each run (standard queries). Judged only if retrieved in >= 15 queries per run.
+  2026-10-24: group 0.565 in 23 queries, baseline 0.340, gap +0.225, 95% interval [+0.022, +0.430]
+  2026-10-27: group 0.440 in 25 queries, baseline 0.336, gap +0.104, 95% interval [-0.086, +0.297]
+  RESULT H6: NOT SUPPORTED
+
+SUMMARY
+  H1: NOT SUPPORTED
+  H2: NOT SUPPORTED
+  H3: SUPPORTED
+  H4: SUPPORTED
+  H5: SUPPORTED
+  H6: NOT SUPPORTED
+Six tests were run, so some will pass or fail by chance. Report all of them.
