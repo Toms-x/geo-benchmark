@@ -64,3 +64,8 @@ Autocomplete and People Also Ask queries, and anything found after the first run
 ## Amendments
 None yet. Any change after the first run is added here with a date and reason.
 The text above is never edited.
+### [date] (both runs collected, no analysis done yet)
+The label file analysis/domain_labels_confirm2.csv was committed (5ec3c9e) before the labeling
+script had been run on it, so that commit held the unfilled file. The script
+(analysis/apply_confirm2_labels.py, in the same commit) was then run and the filled file committed.
+No test had been run at that point, and no label was edited by hand.
