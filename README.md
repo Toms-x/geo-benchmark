@@ -10,25 +10,24 @@ This extends my earlier paper on the gap between being cited and being clicked: 
 
 ## Stages and main results
 
-One engine throughout: Perplexity Agent API, preset `fast`, web search tool, search context `low`. The API reported the same model (`openai/gpt-6-luna`) in every run.
+One engine throughout: Perplexity Agent API, preset `fast`, web search tool, search context `low`. The API reported the same model name (`openai/gpt-6-luna`) in every run.
 
 - **Exploration:** 84 queries, 3 runs (2026-09-28, 2026-10-02, 2026-10-09).
-- **Confirmation 1:** 153 queries drafted by from general knowledge and one GSC data, 2 runs (2026-10-11, 2026-10-15). Hypotheses (`docs/hypotheses.md`), queries, analysis script and domain labels were committed before the tests were run.
-- **Confirmation 2:** planned, with queries taken from Google Autocomplete and People Also Ask suggestions.
+- **Confirmation 1:** 153 queries drafted by an AI assistant, 2 runs (2026-10-11, 2026-10-15). Hypotheses (`docs/hypotheses.md`) and the query set were committed before the first run.
+- **Confirmation 2:** 200 queries taken from Google Autocomplete and People Also Ask suggestions by a fixed-rule script, 2 runs (2026-10-24, 2026-10-27). The query builder, query set, hypotheses (`docs/hypotheses_confirm2.md`) and analysis code were all committed before the first run.
 
-**Held up in both stages**
-- Per-query citations are unstable. Overlap of cited domains for the same query was 0.36 to 0.28 in exploration (runs 4 to 11 days apart) and 0.38 in confirmation (95% interval 0.34 to 0.42).
-- Aggregates are more stable. Nine domains were in the top 15 cited domains in all three exploration runs, and 11 were shared between the two confirmation runs.
-- Live price queries are cited much less. The gap to other queries was 0.20 to 0.29 in exploration (8 queries) and 0.17 to 0.21 in confirmation (25 queries), with intervals above zero.
+Confirmation 1 supported 3 of 6 tested hypotheses (1 was untested). Confirmation 2 supported 3 of 6. Full output is in `docs/confirmation_results.txt` and `docs/confirmation2_results.txt`.
 
-**Leads that did not replicate at the pre-specified size**
-- Binance: cite rate fell across the exploration runs (0.68, 0.60, 0.46) and was at baseline by run 3.
-- Finance institutions: about +0.3 above baseline in exploration, +0.13 in both confirmation runs, with intervals including zero. Fidelity fell from 0.95 to about 0.44.
-- Kraken: above baseline in every exploration run, but in confirmation one run passed (+0.25) and one did not (+0.07), and the intervals are wide.
-- Exchanges as a group: near baseline in exploration, about 0.05 above in confirmation. The study cannot tell this from zero.
-- OKX: not tested in confirmation, because it appeared in too few queries.
+**Held up across stages**
+- Per-query citations are unstable. Mean overlap of cited domains between two runs was 0.28 to 0.36 in exploration, 0.38 in confirmation 1, and 0.45 in confirmation 2 (95% interval 0.41 to 0.50). It was below 0.5 in every stage.
+- Aggregates are more stable. Nine domains were in the top 15 in all three exploration runs, 11 were shared in confirmation 1, and 14 in confirmation 2.
+- Live price queries are cited less. The gap to other queries was 0.20 to 0.29 in exploration, 0.17 to 0.21 in confirmation 1, and 0.12 to 0.13 in confirmation 2, with intervals above zero in both confirmations. The size depends on the query set, and in confirmation 2 it fell below the pre-specified 0.15.
+- Finance institutions are cited more than baseline. The group (Fidelity, Wise, investor.gov, and others) was above baseline in all 7 runs, and in confirmation 2 by +0.21 and +0.14 with intervals above zero. It is carried by a few domains, and PayPal, Stripe and Robinhood are near baseline.
 
-Of seven pre-specified hypotheses, three were supported, three were not, and one was untested. Full output is in `docs/confirmation_results.txt` and notes are in `docs/findings.md`.
+**Not established**
+- Exchanges as a group: between 0.00 and +0.06 above baseline in every run, with intervals that include zero in both confirmations.
+- Kraken: above baseline in all 7 runs, but no stage met the pre-specified standard in both runs.
+- Withdrawn: Binance looked unusually high in run 1 of exploration (cite rate 0.68), fell in later runs, and was at baseline by run 3.
 
 ## Method
 
@@ -49,6 +48,11 @@ Of seven pre-specified hypotheses, three were supported, three were not, and one
 - `docs/hypotheses.md`: hypotheses written before confirmation 1
 - `docs/confirmation_results.txt`: output of the pre-specified tests
 - `docs/findings.md`: running notes on results and limitations
+- `data/queries_confirm2.csv`, `data/citations_confirm2.csv`: confirmation 2 queries and results
+- `data/raw_suggestions/seeds.csv`, `checksums.txt`: the seed words and checksums of the raw tool exports (the exports themselves are not redistributed)
+- `analysis/build_confirm2_set.py`: builds the confirmation 2 query set with fixed rules
+- `analysis/confirm2_analysis.py`, `apply_confirm2_labels.py`: tests the pre-specified hypotheses and labels new domains
+- `docs/hypotheses_confirm2.md`, `docs/confirmation2_results.txt`: hypotheses and results for confirmation 2
 
 ## Run it
 
@@ -71,10 +75,12 @@ A run of 153 queries costs about 25 cents. The scraper is resumable within a day
 - A few queries returned 20 sources instead of about 10
 - Click and traffic data are not included, so this covers the citation side only
 - Raw exports from the query tool are not redistributed; SHA-256 checksums are in data/raw_suggestions/checksums.txt
+- Confirmation 2 seeds were chosen by the author. Autocomplete suggestions often read as fragments, and a few odd queries remain.
+- Place names were excluded from confirmation 2, so country-specific queries are not covered.
 
 ## Status
 
-Exploration and confirmation 1 are complete. Confirmation 2 is being set up.
+v0.2. Exploration and both confirmation stages are complete, and a paper draft is in progress. Possible next steps: a second engine, or rerunning the same queries a month later to see whether citations drift over a longer span.
 
 ## License
 

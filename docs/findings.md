@@ -83,3 +83,44 @@
 - Baseline cite rate was lower on these queries (0.38 to 0.40) than in exploration
   (0.43 to 0.45). Cause unknown.
 - Unlabeled domains made up 0.34 of standard-query pairs (about 0.59 in exploration).
+## Confirmation 2 (runs 2026-10-24 and 2026-10-27)
+- 200 queries (160 standard, 40 live_price), taken from Google Autocomplete and People Also Ask
+  suggestions (KeywordsPeopleUse, en_US, exported 2026-10-22) by analysis/build_confirm2_set.py using
+  fixed rules. 114 from autocomplete, 86 from People Also Ask. Query builder, query set, hypotheses
+  (docs/hypotheses_confirm2.md) and analysis script were committed before run 1. Same engine, preset
+  (fast), search context (low) and reported model (openai/gpt-6-luna). Runs 3 days apart.
+- 72 new domains labeled from names only, with counts hidden. The label file was first committed
+  unfilled and then filled by the script in that commit, before any test (see Amendments in the
+  hypotheses file).
+- H1 not supported. Live price vs standard gap +0.128 [+0.070, +0.181] and +0.119 [+0.064, +0.175],
+  below the 0.15 threshold. Live 0.213 and 0.217, standard 0.340 and 0.336. 40 live queries in 17 topics.
+- H2 not supported. Exchange group +0.012 [-0.057, +0.076] and +0.055 [-0.019, +0.125].
+- H3 supported. Finance group +0.213 [+0.063, +0.361] and +0.143 [+0.008, +0.287], in 37 and 38 queries.
+  Per domain, run 1 / run 2: fidelity 0.58 / 0.41, wise 0.67 / 1.00, investor.gov 0.75 / 1.00,
+  ig 0.60 / 0.33, paypal 0.33 / 0.29, stripe 0.40 / 0.33, robinhood 0.50 / 0.00.
+- H4 supported, narrowly. Mean Jaccard overlap 0.454 on standard queries, interval [0.409, 0.499].
+  All queries: 0.438 [0.396, 0.482].
+- H5 supported. 14 domains shared between the top groups (15 and 18 with ties).
+- H6 not supported. Kraken +0.225 [+0.022, +0.430] and +0.104 [-0.086, +0.297], in 23 and 25 queries.
+- Result: 3 supported, 3 not supported. Full output in docs/confirmation2_results.txt.
+- Share of standard-query pairs on unlabeled domains: 0.36.
+
+## Across stages (descriptive, not pooled in any test)
+- Live price gap: 0.20 to 0.29 (exploration), 0.17 to 0.21 (confirmation 1), 0.12 to 0.13
+  (confirmation 2). Direction held in all 7 runs. Size depends on the query set.
+- Finance institutions above baseline in all 7 runs (type in exploration, fixed group in confirmations).
+- Kraken above baseline in all 7 runs. No stage met the pre-specified standard in both runs.
+- Exchanges as a group between 0.00 and +0.06 above baseline in all 7 runs. Intervals include zero in
+  both confirmation stages.
+- Mean Jaccard overlap: 0.28 to 0.36 (exploration), 0.38 (confirmation 1), 0.45 (confirmation 2).
+  Below 0.5 in every stage. Days between runs does not explain the differences, because the query sets differ.
+
+## Limitations added by confirmation 2
+- Seeds were chosen by the author. Autocomplete and People Also Ask suggestions are not a random sample
+  of searches. Autocomplete suggestions often read as fragments.
+- The selection rules were tuned after reading samples of the exports and before any engine run.
+- A few odd queries remain (for example "where is etf airways from").
+- Place names were excluded, which removes country-specific queries.
+- Live price queries cover only 17 topics.
+- Some answers returned fewer or more than 10 sources (5, 6, 8, 9 and 20 were seen).
+- H4 passed by a very small margin (interval upper end 0.499 against a threshold of 0.5).
